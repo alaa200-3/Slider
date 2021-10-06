@@ -1,0 +1,40 @@
+body{
+    font-family: 'segoe ui light';
+}
+
+.item{
+    margin-bottom: 30px;
+}
+
+.content{
+    width: 80%;
+    padding:15px;
+    bottom: 30px;
+    left:10%;
+    background-color: #fff;
+}
+
+#lightBoxContainer{
+    position: fixed;
+    display: none;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(0, 0,0,0.54);
+}
+
+#lightBoxItem{
+    width:50%;
+    height: 500px;
+    background-size: cover;
+}
+
+#close{
+top:0;
+right:0;
+}
+#lightBoxItem i{
+    margin:5px;
+    font-size:20px;
+}
